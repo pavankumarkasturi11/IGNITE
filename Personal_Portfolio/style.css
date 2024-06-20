@@ -425,6 +425,25 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
+.link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ignite-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.ignite-link:hover {
+    background-color: #0056b3;
+}
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
